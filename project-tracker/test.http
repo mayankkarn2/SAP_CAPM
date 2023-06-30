@@ -1,0 +1,15 @@
+# Testing the Http Calls
+
+
+GET http://localhost:4004/user/Tasks
+###
+
+
+GET http://localhost:4004/user/getTasks(user='')
+
+####
+
+POST http://localhost:4004/admin/Tasks
+Content-Type: application/json
+
+{"TaskName": "Prepare Tech Support", "AssignedDate": "2023-07-25", "AssignedTo": "Mayank", "AssignedBy": "Lisa", "CompleteBy": "2023-08-01", "Status": "Completed"}
