@@ -19,7 +19,12 @@
   },
   "cds": {
     "requires": {
-      "db": "hana-cloud"
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "database": "db.sqlite"
+        }
+      }
     }
   }
 }
