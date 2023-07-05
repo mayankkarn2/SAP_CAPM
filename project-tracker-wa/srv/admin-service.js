@@ -1,3 +1,4 @@
+const debug = require("debug")('srv:admin-service');
 const cds = require("@sap/cds");
 const { Tasks } = cds.entities('my.project');
 

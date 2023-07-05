@@ -1,8 +1,8 @@
 const cds = require("@sap/cds");
+const { debug } = require("debug")('srv:cat-service')
 const { Tasks } = cds.entities('my.project');
 
 module.exports = ProjectService = (srv) => {
-
     // Added the read operation (R) in CRUD
     srv.on("READ","Tasks", async (req,res) => {
         console.log("hai");
@@ -14,6 +14,7 @@ module.exports = ProjectService = (srv) => {
     //Get Tasks of Single User
     srv.on("getTasks", async (req,res) => {
         const user = req.data.user;
+        // debug("The user is: ", user);
         if(user==='') {
             return "Please enter user";
         }

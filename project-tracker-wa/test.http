@@ -5,11 +5,11 @@ GET http://localhost:4004/user/Tasks
 ###
 
 
-GET http://localhost:4004/user/getTasks(user='')
+GET https://b9ada367trial-dev-project-tracker-srv.cfapps.us10-001.hana.ondemand.com/getTasks(user='Marcus')
 
 ####
 
-POST http://localhost:4004/admin/Tasks
+POST https://b9ada367trial-dev-project-tracker-srv.cfapps.us10-001.hana.ondemand.com/admin/Tasks
 Content-Type: application/json
 
-{"TaskName": "Prepare Tech Support", "AssignedDate": "2023-07-25", "AssignedTo": "Mayank", "AssignedBy": "Lisa", "CompleteBy": "2023-08-01", "Status": "Completed"}
+{"TaskName": "Document the requirements", "AssignedDate": "2023-07-04", "AssignedTo": "Ryan", "AssignedBy": "Lisa", "CompleteBy": "2023-08-01", "Status": "Completed"}

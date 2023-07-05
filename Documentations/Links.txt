@@ -1,0 +1,13 @@
+https://blogs.sap.com/2021/06/11/set-up-remote-debugging-to-diagnose-cap-applications-node.js-stack-at-runtime-running-on-sap-btp-cloud-foundry-environment/
+
+https://www.youtube.com/watch?v=VdpP6GVuK3A
+
+https://developers.sap.com/tutorials/cap-service-deploy.html
+
+https://developers.sap.com/tutorials/btp-app-hana-cloud-setup.html#3b20e31c-e9eb-44f7-98ed-ceabfd9e586e
+
+https://blogs.sap.com/2020/03/02/using-postman-for-api-testing-with-xsuaa/
+
+http://www.lab.ui5cn.com/docs/capm
+
+https://cap.cloud.sap/docs/
