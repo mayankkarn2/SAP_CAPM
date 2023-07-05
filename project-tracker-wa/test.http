@@ -9,7 +9,7 @@ GET https://b9ada367trial-dev-project-tracker-srv.cfapps.us10-001.hana.ondemand.
 
 ####
 
-POST https://b9ada367trial-dev-project-tracker-srv.cfapps.us10-001.hana.ondemand.com/admin/Tasks
+POST http://localhost:4004/admin/Tasks
 Content-Type: application/json
 
-{"TaskName": "Document the requirements", "AssignedDate": "2023-07-04", "AssignedTo": "Ryan", "AssignedBy": "Lisa", "CompleteBy": "2023-08-01", "Status": "Completed"}
+{"TaskName": "Allocate Budgets", "AssignedDate": "2023-07-15", "AssignedTo": "Nikhitha", "AssignedBy": "Lisa", "CompleteBy": "2023-08-15", "Status": "Completed"}

@@ -1,0 +1,3 @@
+use cds deploy --to sqlite for running local sqlite and the use 'cds watch' and open port 4004
+
+use cds deploy --to hana for running your project in Cloud DB and use 'cds watch --profile hybrid' and open port 4004.
